@@ -1,0 +1,268 @@
+Total, AVG, Percentage of n students for 5 subject marks  
+
+1. start
+2. take input n .. number of students.
+3. start for loop for n times
+4. take 5 input marks in a temporary m variable one by one using another for loop
+5. inside loop after each read add it to sum variable whose initial value is 0
+6. print sum. print (sum/5). print percentage.
+7. continue to the outer for loop
+8. end.
+
+----------------------------------------------------------------
+
+to reduce expenditure.....bills popups.
+
+1. start
+2. While redirecting to payment app.
+3. put bill popups or monthly unavoidable expenditure popups.
+4. after clicking on ok, proceed for payment else cancel payment.
+5. end
+----------------------------------------------------------------
+
+Application to get the criteria for getting marry.
+
+1. start
+2. take biadata input
+3. check education qualification if satisfied proceed else exit
+4. check height and family background if satisfied procced else exit
+5. check work... job or business is satisfied proceed else exit
+6. go for f2f meet and try to understand the person 
+7. ask about life goals and intrests if satisfied proceed
+8. check if the person is health concious and works on it ..if yes then proceed
+9. end
+------------------------------------------------------------------------------------------------
+1) Check if the given no is even or odd
+
+1. start
+2. read input n
+3. check if n%2==0
+4. if true print EVEN 
+5. else print ODD
+6. end
+
+-------------------------------------------------------------------------------------------------
+
+2) Write a java program to find the factorial of a given number
+
+1. start
+2. read input n
+3. initialize one variable fact with 1
+4. strat multiplying one by one integer with fact until we reach to n.
+5. print fact
+6. end
+
+
+-----------------------------------------------------------------------------------------------
+
+3)Find factorial of no using recursion
+
+1. start
+2. read input n
+3. call a method named factorial
+4. add base condition (if n==1 return 1;)
+5. else return n*factorial(n-1)
+6. end
+
+------------------------------------------------------------------------------------------------
+4)Swap 2 no without using third variable
+
+1. start
+2. read 2 numbers and store in a,b variable
+3. a<- a+b
+4. b<- a-b
+5. a<- a-b 
+6. print a,b
+7. end
+
+-------------------------------------------------------------------------------------------------
+
+5)How to check whether the given no is positive or negative in java
+
+1. start
+2. take number n
+3. check if n>0
+4. if true print POSITIVE
+5. else print NEGATIVE
+6. end
+
+------------------------------------------------------------------------------
+
+6)WAP to find given year leap year or not
+
+1. start
+2. read year value y
+3. check if y%400==0
+4. if true then print LEAP year
+5. elseif y%100==0
+6. print NOT a LEAP year
+7. elseif y%4==0 print LEAP yeart
+8. else print NOT LEAP year
+9. end
+
+---------------------------------------------------------------------------------
+
+7)WAP to print 1 to 10 without using loop
+
+1. start
+2. print ("1 \n 2\n3\n4\n5\n6\n7\n8\n9\10")
+3. end
+
+--------------------------------------------------------------------------------
+
+8)WAP to print the digits of the given numbers
+
+1. start
+2. read n
+3. while n>0 do
+4. print n%10
+5. n<- n/10
+6. end while loop
+7. end
+
+	----------------------------------------------------------------
+
+9)WAP to print all the factors of given no.
+
+1. start
+2. read n
+3. check if n is divisible by numbers from 1 to n one by one 
+4. if divisible print the number
+5. else continue
+6. end
+
+----------------------------------------------------------------------
+
+10)WAP to find the sum of digits of a given number
+
+1. start
+2. read n
+3. initialize sum with 0
+4. while n>0
+5. sum<- sum+(n%10)
+6. n<-n/10
+7. end loop
+8. end
+
+
+
+----------------------------------------------------------------------------
+
+11)WAP to find the smallest of 3 number
+
+1. start
+2. read a,b,c
+3. initialize min <- a
+4. check if min>b 
+5. if true then min <-b 
+6. check if min>c 
+7. if true then min<-c
+8. end
+
+------------------------------------------------------------------------
+
+12)How to add two numbers whitout using arithmatic operators in java
+
+1. start
+2. read a,b
+3. for 1 to b
+4. increment a
+5. end
+
+---------------------------------------------------------------------------
+
+13)WAP to reverse a given no
+
+1. start
+2. read n
+3. initialize rev<-0
+4. while n>0
+5. rev<- (rev*10)+(n%10)
+6. n<- n/10
+7. end loop
+8. print rev
+9. end
+
+----------------------------------------------------------------------------------
+
+14)WAP to find GCD of given numbers
+
+1. start
+2. initialize gcd<- 1
+3. read a,b
+4. find minimum number min
+5. for i = 2 to min
+6. check if i divides a and b both if yes update gcd<-if
+7. end
+
+----------------------------------------------------------------------------------------
+
+
+
+15)WAP for LCM of 2 nos
+
+1. start
+2. read a,b
+3. find gcd
+4. lcm<- (a*b)/gcd
+5. print lcm
+6. end
+
+-------------------------------------------------------------------------------------
+16)WAP to find LCM using prime factors method.
+
+1. start
+2. read a,b
+3. Check one by one each prime factor 
+4. If it completely divides both the numbers then lcm<-lcm*factor
+5. Continue this till the square root of minimum number
+6. And then multiply the remaining number with lcm 
+7. print the answer
+8. End
+
+------------------------------------------------------------------
+
+17)WAP to check whether the given no is palindrom or not
+
+1. start
+2. read num
+3. save it as one extra copy in original_num
+4. then reverse the number 
+5. and compare with original_num is same print PALINDROM
+6. else NOT
+7. end
+
+----------------------------------------------------------------------
+
+18)WAP to print all the prime factors of the given number.
+
+1. start
+2. read n
+3. if n%2==0 then
+4. divide n by 2 until its not possible to further divide it fully by 2 and write 2 every time we devide n%10
+5. for loop
+6. divide n by alternate number starting from 3 
+7. increse divisor by 2 after its not possible to further divide the number
+8. print the devisor each time dividing the number
+9. repeat the process untill we reach the squareRoot of the n
+10. if n>2 
+11. print n
+12. end
+---------------------------------------------------------------------------
+
+
+19)WAP to print even no series
+
+1. start
+2. for i<- 2 to infinity
+3. print value of i alternately
+4. end
+
+----------------------------------------------------------
+20)WAP to print ODD number series
+
+1. start
+2. for i<-1 to infinity
+3. print value of i alternately / increment it by 2 every time.
+4. end
+-------------------------------------------------------------
