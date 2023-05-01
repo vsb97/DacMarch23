@@ -1,0 +1,12 @@
+//program for reversing an array using two pointers.
+
+public static List<Integer> reverseArray(List<Integer> a) {
+        int i = 0, j=a.size()-1, temp;
+        while(i<=j){
+            temp=a.get(i);
+            a.set(i, a.get(j));
+            a.set(j, temp);
+            i++;j--;
+        }
+        return a;
+    }
